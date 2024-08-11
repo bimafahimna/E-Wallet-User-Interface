@@ -1,0 +1,50 @@
+@import '../../scss/colors';
+@import '../../scss/mixin';
+
+.widget {
+  height: 18.7rem;
+  width: 33rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.6rem 1.9rem 3.1rem 2.3rem;
+  border-radius: 1.5rem;
+}
+
+.income {
+  border: 1px solid #c9ffd8;
+  background-color: #eafcef;
+}
+
+.expense {
+  border: 1px solid #ffddca;
+  background-color: #feefe7;
+}
+
+.incomeFont {
+  color: #33a720;
+}
+.expenseFont {
+  color: #f60707;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.nominal {
+  @include font(2.8rem, 4.2rem, 600);
+  margin: 2.3rem 0 1.1rem 0;
+}
+
+.widgetDesc {
+  @include font();
+  font-weight: 600;
+  margin: 0;
+}
+
+.img {
+  width: 6.597rem;
+  height: 4.724rem;
+}

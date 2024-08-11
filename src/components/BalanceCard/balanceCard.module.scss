@@ -1,0 +1,46 @@
+@import '../../scss/colors';
+@import '../../scss/mixin';
+
+.card {
+  background-color: #f9f9f9;
+  height: 18.7rem;
+  min-width: 37.7rem;
+  padding: 2.6rem 2.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.95rem;
+  border-radius: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  @include font(2.2rem, 3.3rem, 600);
+  color: $purple;
+}
+
+.showPass {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btnShowPass {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 0;
+}
+
+.balance {
+  @include font(2.8rem, 4.2rem, 600);
+  color: black;
+}
+
+.walletNumber {
+  @include font(1.4rem, 2.1rem, 600);
+  color: $purple;
+  margin: 0;
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ede6e7;
+  border-radius: 1.5rem;
+  height: 10.3rem;
+  width: 107.3rem;
+  padding: 1rem 5rem 1rem 2.4rem;
+  align-items: center;
+}
+
+.text {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: #282828;
+}
+
+.income {
+  color: #33a720;
+}
+
+.expense {
+  color: #f60707;
+}/*# sourceMappingURL=transactionCrad.module.css.map */

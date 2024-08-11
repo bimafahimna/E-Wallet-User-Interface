@@ -1,0 +1,119 @@
+.flexRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 1.6rem;
+}
+
+.flexColumn, .form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.leftContent {
+  width: 39.6rem;
+  margin: 0 0 5rem 0;
+}
+
+.pageIntro {
+  font-size: 5rem;
+  line-height: 7.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: black;
+}
+
+.seaWallet {
+  font-size: 3.5rem;
+  line-height: 5.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0 0 5rem 0;
+  color: black;
+}
+
+.desc {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0.3rem 0;
+}
+
+.formTitle {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.forgetPwd {
+  font-size: 1.3rem;
+  line-height: 1.95rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #b0b0b0;
+  margin: 0 0 1.6rem 0;
+  text-align: right;
+}
+
+.continue {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-weight: 500;
+  color: #b5b5b5;
+  margin: 5.4rem 0 4.5rem 0;
+  text-align: center;
+}
+
+.form {
+  gap: 0.5rem;
+  margin: 2.8rem 0 1.7rem 0;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 2.2rem;
+  justify-content: center;
+}
+
+.imgContainer {
+  align-self: flex-end;
+}
+
+.saly {
+  width: 31.3rem;
+  height: 55.6rem;
+}
+
+.otherPeeps {
+  width: 28.6rem;
+  height: 38.4rem;
+  margin: 0 2.8rem 0 0;
+}
+
+.loader {
+  width: 4rem;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: white;
+  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+
+@keyframes l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}/*# sourceMappingURL=authentication.module.css.map */

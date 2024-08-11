@@ -1,0 +1,31 @@
+button {
+  text-align: left;
+  color: #a7a3ff;
+  width: 36.6rem;
+  height: 5.9rem;
+  padding: 1.8rem 2rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #f0efff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("/src/assets/icon/menu-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 2rem top 50%;
+  background-size: 2.4rem auto;
+  position: relative;
+}
+
+.dropdownIsOpen {
+  background-image: url("/src/assets/icon/menu-up.svg");
+  background-repeat: no-repeat;
+  background-position: right 2rem top 50%;
+  background-size: 2.4rem auto;
+  position: relative;
+}/*# sourceMappingURL=dropdown.module.css.map */

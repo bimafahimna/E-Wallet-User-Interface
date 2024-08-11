@@ -1,0 +1,14 @@
+@import '../../scss/colors';
+@import '../../scss/mixin';
+
+.container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+.line {
+  border: 1px solid #ede6e7;
+  width: 100vw;
+  position: fixed;
+  top: 10vh;
+}

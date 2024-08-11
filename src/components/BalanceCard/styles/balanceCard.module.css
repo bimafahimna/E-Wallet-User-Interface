@@ -1,0 +1,53 @@
+.card {
+  background-color: #f9f9f9;
+  height: 18.7rem;
+  min-width: 37.7rem;
+  padding: 2.6rem 2.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.95rem;
+  border-radius: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #4d47c3;
+}
+
+.showPass {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btnShowPass {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0;
+}
+
+.balance {
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+.walletNumber {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #4d47c3;
+  margin: 0;
+}/*# sourceMappingURL=balanceCard.module.css.map */

@@ -1,0 +1,29 @@
+@import '../../scss/colors';
+@import '../../scss/mixin';
+
+button {
+  text-align: left;
+  color: $input-font-color;
+  width: 36.6rem;
+  height: 5.9rem;
+  padding: 1.8rem 2rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: $input-bg-color;
+  cursor: pointer;
+  @include font(1.5rem, 2.25rem);
+  //   Arrow
+  appearance: none;
+  background-image: url('/src/assets/icon/menu-down.svg');
+  background-repeat: no-repeat;
+  background-position: right 2rem top 50%;
+  background-size: 2.4rem auto;
+  position: relative;
+}
+.dropdownIsOpen {
+  background-image: url('/src/assets/icon/menu-up.svg');
+  background-repeat: no-repeat;
+  background-position: right 2rem top 50%;
+  background-size: 2.4rem auto;
+  position: relative;
+}
