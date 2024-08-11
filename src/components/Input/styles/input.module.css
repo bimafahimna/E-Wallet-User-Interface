@@ -1,0 +1,66 @@
+.input {
+  background-color: #f0efff;
+  width: 36.9rem;
+  height: 6.2rem;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 2rem 0 2rem 2.6rem;
+  color: black;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.input:focus {
+  outline: #a7a3ff solid 1px;
+}
+
+.input::-moz-placeholder {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #a7a3ff;
+}
+
+.input,
+.input::placeholder {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #a7a3ff;
+}
+
+.isInvalid:invalid {
+  background-color: #feefe7;
+  outline: #f60707 solid 1px;
+}
+.isInvalid:invalid::-moz-placeholder {
+  color: #f60707;
+}
+.isInvalid:invalid::placeholder {
+  color: #f60707;
+}
+
+.invalidMsg {
+  font-size: 1.3rem;
+  line-height: 1.95rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0.6rem 0 0 0;
+  color: #f60707;
+}
+
+.inputContainer {
+  height: 8.15rem;
+  position: relative;
+}
+
+.showPassBtn {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 2.2rem;
+  right: 1.5rem;
+}/*# sourceMappingURL=input.module.css.map */

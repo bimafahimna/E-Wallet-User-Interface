@@ -1,0 +1,16 @@
+@import '../../scss/colors';
+@import '../../scss/mixin';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.2rem 4.1rem 2.3rem 4.7rem;
+  height: 10vh;
+}
+
+.title {
+  @include font(2.4rem, 3.6rem, 600);
+  color: $gray;
+  padding: 1.4rem 0 0 0;
+}

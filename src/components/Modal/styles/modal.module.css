@@ -1,0 +1,7 @@
+.backblur {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.5;
+}/*# sourceMappingURL=modal.module.css.map */

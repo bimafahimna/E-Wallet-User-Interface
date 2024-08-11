@@ -1,0 +1,103 @@
+@import '../../scss/colors';
+@import '../../scss/mixin';
+
+.flexRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 1.6rem;
+}
+
+.flexColumn {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.leftContent {
+  width: 39.6rem;
+  margin: 0 0 5rem 0;
+}
+
+.pageIntro {
+  @include font(5rem, 7.5rem, 600);
+  margin: 0 0 0.5rem 0;
+  color: black;
+}
+
+.seaWallet {
+  @include font(3.5rem, 5.25rem, 500);
+  margin: 0 0 5rem 0;
+  color: black;
+}
+
+.desc {
+  @include font();
+  margin: 0.3rem 0;
+}
+
+.formTitle {
+  @include font(3rem, 4.5rem, 500);
+  margin: 0;
+}
+
+.forgetPwd {
+  @include font(1.3rem, 1.95rem);
+  color: $lighter-lighter-gray;
+  margin: 0 0 1.6rem 0;
+  text-align: right;
+}
+
+.continue {
+  @include font();
+  font-weight: 500;
+  color: $lighter-grey;
+  margin: 5.4rem 0 4.5rem 0;
+  text-align: center;
+}
+
+.form {
+  @extend .flexColumn;
+  gap: 0.5rem;
+  margin: 2.8rem 0 1.7rem 0;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 2.2rem;
+  justify-content: center;
+}
+
+.imgContainer {
+  align-self: flex-end;
+}
+.saly {
+  width: 31.3rem;
+  height: 55.6rem;
+}
+
+.otherPeeps {
+  width: 28.6rem;
+  height: 38.4rem;
+  margin: 0 2.8rem 0 0;
+}
+
+.loader {
+  width: 4rem;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: white;
+  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}

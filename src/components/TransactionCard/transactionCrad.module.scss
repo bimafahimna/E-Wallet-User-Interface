@@ -1,0 +1,27 @@
+@import '../../scss/colors';
+@import '../../scss/mixin';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ede6e7;
+  border-radius: 1.5rem;
+  height: 10.3rem;
+  width: 107.3rem;
+  padding: 1rem 5rem 1rem 2.4rem;
+  align-items: center;
+}
+
+.text {
+  @include font(1.8rem, 2.7rem, 600);
+  margin: 0 0 1rem 0;
+  color: #282828;
+}
+
+.income {
+  color: $primary-green;
+}
+
+.expense {
+  color: $primary-red;
+}

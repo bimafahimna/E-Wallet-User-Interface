@@ -1,0 +1,28 @@
+.dropDown {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 0.5px solid #95999e;
+  position: absolute;
+  bottom: -8rem;
+  right: 0px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  width: 13.2rem;
+  padding: 0.6rem 2rem;
+  gap: 1.8rem;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: #282828;
+}/*# sourceMappingURL=dropdown.module.css.map */

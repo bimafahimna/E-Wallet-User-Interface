@@ -1,0 +1,19 @@
+@import '../../../scss/colors';
+@import '../../../scss/mixin';
+
+.option {
+  color: $input-font-color;
+  width: 36.6rem;
+  border: none;
+  background-color: $input-bg-color;
+  @include font(1.5rem, 2.25rem);
+  border-radius: 0.8rem;
+  padding: 0.7rem 2rem;
+  position: absolute;
+  top: 5.05rem;
+
+  div {
+    padding: 0.5rem 0;
+    cursor: pointer;
+  }
+}

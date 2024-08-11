@@ -1,0 +1,48 @@
+@import '../../scss/colors';
+@import '../../scss/mixin';
+
+.menu {
+  @include font(1.8rem, 2.7rem, 600);
+  display: flex;
+  align-items: center;
+  height: min-content;
+  gap: 1.8rem;
+}
+
+.navTitle {
+  @include font(2.8rem, 4.2rem, 600);
+  margin: 0;
+  color: $purple;
+}
+
+.sideNav {
+  width: 26.6rem;
+  height: 100dvh;
+  padding: 2.9rem 0 1.8rem 2.7rem;
+  display: grid;
+  grid-template-rows: max-content 1fr min-content;
+  align-items: center;
+  background-color: #f6f4f5;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  height: max-content;
+}
+
+.menuNavContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+
+.defaultColor {
+  color: $gray;
+}
+
+.isActive {
+  color: $purple;
+}

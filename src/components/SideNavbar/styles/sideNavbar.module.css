@@ -1,0 +1,53 @@
+.menu {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: -moz-min-content;
+  height: min-content;
+  gap: 1.8rem;
+}
+
+.navTitle {
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: #4d47c3;
+}
+
+.sideNav {
+  width: 26.6rem;
+  height: 100dvh;
+  padding: 2.9rem 0 1.8rem 2.7rem;
+  display: grid;
+  grid-template-rows: max-content 1fr min-content;
+  align-items: center;
+  background-color: #f6f4f5;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.menuNavContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+
+.defaultColor {
+  color: #95999e;
+}
+
+.isActive {
+  color: #4d47c3;
+}/*# sourceMappingURL=sideNavbar.module.css.map */
